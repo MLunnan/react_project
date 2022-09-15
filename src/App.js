@@ -17,7 +17,10 @@ function App() {
         <option value={"pun"}>Pun</option>
         <option value={"spooky"}>Spooky</option>
       </select>
-      <Jokes category={category} />
+      <div className="Textarea">
+        <Jokes category={category} />
+      </div>
+      <footer>This is the footer</footer>
     </div>
   );
 }
