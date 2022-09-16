@@ -26,9 +26,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 }
 .Select {
-  width: 5rem;
+  width: 7rem;
 }
 #Header-text {
   font-size: 2.5rem;
