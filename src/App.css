@@ -13,6 +13,9 @@
   justify-content: center;
   align-items: center;
 }
+main {
+  flex: 1;
+}
 .Text {
   background-color: #700b97;
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.638),
@@ -22,6 +25,10 @@
   margin: 3rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.Select {
+  width: 5rem;
 }
 #Header-text {
   font-size: 2.5rem;
@@ -34,34 +41,22 @@
   font-size: 2rem;
 }
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   background-color: #3e065f;
-  height: 10rem;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .App-header {
     height: 9rem;
   }
   .Text {
-    margin: 1.5rem;
+    margin: 2rem;
   }
   #Header-text {
     font-size: 1.5rem;
   }
   #display-box {
     font-size: 1rem;
-  }
-  footer {
-    height: 6rem;
-  }
-  #footer-text {
-    padding: 0.2rem;
-    border-radius: 0.5rem;
   }
 }
