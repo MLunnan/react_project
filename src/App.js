@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="Text" id="Header-text">
-          Wanna read a joke?
+          WANNA READ A JOKE?
         </h1>
       </header>
       <main>
