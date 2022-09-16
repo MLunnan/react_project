@@ -29,7 +29,7 @@ main {
   align-items: center;
 }
 .Select {
-  width: 7rem;
+  width: fit-content;
 }
 #Header-text {
   font-size: 2.5rem;
@@ -63,5 +63,13 @@ footer {
   }
   main {
     width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  main {
+    width: 75%;
+  }
+  .Select {
+    font-size: 1.5rem;
   }
 }
