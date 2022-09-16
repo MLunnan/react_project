@@ -27,6 +27,7 @@ function App() {
             <option value={"pun"}>Pun</option>
             <option value={"spooky"}>Spooky</option>
           </select>
+          <button className="btn">joke me up..</button>
         </div>
         <div className="Text" id="display-box">
           <Jokes category={category} />
