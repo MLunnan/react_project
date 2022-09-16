@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="Text" id="Header-text">
-          Wanna hear a joke?
+          Wanna read a joke?
         </h1>
       </header>
       <div className="Text" id="display-box">
-        <label>Choose Category</label>
+        <label id="lable">Choose a Category</label>
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
           <option value="hide">-- Category --</option>
           <option value={"any"}>Any</option>

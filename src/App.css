@@ -23,6 +23,16 @@
   display: flex;
   flex-direction: column;
 }
+#Header-text {
+  font-size: 2.5rem;
+}
+#lable {
+  margin-bottom: 1rem;
+}
+#display-box {
+  box-shadow: 0 4px 8px 0 rgb(175, 3, 248), 0 12px 20px 0 rgb(211, 3, 252);
+  font-size: 2rem;
+}
 footer {
   position: fixed;
   left: 0;
@@ -34,17 +44,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
-#Header-text {
-  font-size: 2.5rem;
-}
-#display-box {
-  box-shadow: 0 4px 8px 0 rgb(175, 3, 248), 0 12px 20px 0 rgb(211, 3, 252);
-  font-size: 2rem;
-}
-
 @media screen and (max-width: 500px) {
   .App-header {
-    height: 8rem;
+    height: 9rem;
   }
   .Text {
     margin: 1.5rem;
