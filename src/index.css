@@ -1,10 +1,6 @@
 body {
-  background-image: url(https://www.wallpaperflare.com/static/577/693/225/black-background-blue-background-clouds-illustration-wallpaper.jpg);
-  background-size: cover;
+  background-color: #212121 !important;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  background-position: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
