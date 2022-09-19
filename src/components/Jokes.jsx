@@ -7,7 +7,7 @@ const Jokes = ({ category }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  useEffect(() => {
+  const fetchData = () => {
     fetch(url)
       .then((response) => response.json())
       .then((apiData) => {
@@ -19,9 +19,17 @@ const Jokes = ({ category }) => {
         setError(true);
         setLoading(false);
       });
-  }, [url]);
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div>
+      <button className="btn" onClick={fetchData}>
+        See joke
+      </button>
       {loading ? (
         <div>loading...</div>
       ) : error ? (
