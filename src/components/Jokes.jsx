@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./Jokes.css"
 
 const Jokes = ({ category }) => {
   const url = `https://v2.jokeapi.dev/joke/${category}`;
@@ -38,8 +39,8 @@ const Jokes = ({ category }) => {
         <div>{data.joke}</div>
       ) : (
         <div>
-          {data.setup}
-          <div>{data.delivery}</div>
+          <div className="setup">{data.setup}</div>
+          <div className="delivery">{data.delivery}</div>
         </div>
       )}
     </div>
