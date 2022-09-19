@@ -3,7 +3,7 @@ Its a page where you can get funny or less funny jokes with just a click of a bu
 
 We fetch the jokes from [JokeAPI](https://sv443.net/jokeapi/v2/)
 
-<br>This is moble view:
+<br>This is mobile view:
 
 ![Joke page](public/images/React_JokePage.jpg)
 
