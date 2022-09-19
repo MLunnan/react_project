@@ -54,9 +54,10 @@ main {
   margin-bottom: 1rem;
 }
 #display-box {
-  box-shadow: 0 4px 8px 0 rgba(93, 1, 132, 0.529),
-    0 12px 20px 0 rgba(71, 1, 85, 0.537);
+  box-shadow: 0 8px 16px 0 rgba(118, 1, 169, 0.404),
+    0 24px 40px 0 rgba(122, 2, 146, 0.302);
   font-size: 2rem;
+  margin-top: 15%;
 }
 footer {
   background-color: #3e065f;
