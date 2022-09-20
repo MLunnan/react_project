@@ -13,8 +13,11 @@
   justify-content: center;
   align-items: center;
 }
-.App-link{
+.App-link {
   text-decoration: none;
+  color: white;
+  margin-top: 0.2rem;
+  cursor: pointer;
 }
 a:visited {
   color: white;
